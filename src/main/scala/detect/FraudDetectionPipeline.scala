@@ -39,7 +39,18 @@ object FraudDetectionPipeline extends FakeRun {
     data.show(100)
 
     // Note: a lot of false rejections, need to inspect rejection = true data.
-    data.filter(data("rejected") === true).show(10)
+    data.filter("rejected === true").show(10)
+
+    val selectedData : DataFrame = data.select(
+      "rejected",
+      "amount",
+      "binCountry",
+      "device",
+      "riskScore"
+    )
+
+    selectedData.show(5)
+    selectedData.filter("rejected === true").show(5)
   }
 
 
