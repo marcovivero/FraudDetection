@@ -39,7 +39,7 @@ object FraudDetectionPipeline extends FakeRun {
     data.show(100)
 
     // Note: a lot of false rejections, need to inspect rejection = true data.
-    data.filter(data("rejection") === true).show(10)
+    data.filter(data("rejected") === true).show(10)
   }
 
 
