@@ -4,7 +4,7 @@
 		module="frauddetection_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20150601113804"
+		publication="20150601120440"
 	>
 		<description>
 		FraudDetection

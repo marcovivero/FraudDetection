@@ -4,7 +4,7 @@
 		module="frauddetection$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20150601113823"
+		publication="20150601120500"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
