@@ -39,7 +39,7 @@ object FraudDetectionPipeline extends FakeRun {
     //// data.show(100)
 
     // Note: a lot of false rejections, need to inspect rejection = true data.
-    //// data.filter("rejected === true").show(10)
+    //// data.filter(data("rejected") === true).show(10)
 
 
     // Select features that are not so user specific, for purposes
@@ -53,7 +53,7 @@ object FraudDetectionPipeline extends FakeRun {
     )
 
     selectedData.show(5)
-    selectedData.filter("rejected === true").show(5)
+    selectedData.filter(selectedData("rejected") === "true").show(5)
   }
 
 
