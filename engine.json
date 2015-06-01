@@ -1,0 +1,5 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "weeby.ChurnPredictionPipeline"
+}
