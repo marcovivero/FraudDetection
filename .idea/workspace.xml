@@ -47,8 +47,8 @@
       <file leaf-file-name="FraudDetectionPipeline.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/detect/FraudDetectionPipeline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28938907">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.31350482">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding>
                 <element signature="e#16#53#0" expanded="true" />
               </folding>
@@ -308,12 +308,12 @@
       <created>1433185463881</created>
       <option name="number" value="Default" />
       <updated>1433185463881</updated>
-      <workItem from="1433185466210" duration="575000" />
+      <workItem from="1433185466210" duration="749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="575000" />
+    <option name="totallyTimeSpent" value="749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2528" y="22" width="1312" height="1341" extended-state="0" />
@@ -365,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/detect/FraudDetectionPipeline.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28938907">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.31350482">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="e#16#53#0" expanded="true" />
           </folding>
