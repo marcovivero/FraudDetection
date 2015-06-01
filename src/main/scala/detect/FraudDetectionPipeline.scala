@@ -36,11 +36,14 @@ object FraudDetectionPipeline extends FakeRun {
     // (rejected,BooleanType)
 
     // See first data format.
-    data.show(100)
+    //// data.show(100)
 
     // Note: a lot of false rejections, need to inspect rejection = true data.
-    data.filter("rejected === true").show(10)
+    //// data.filter("rejected === true").show(10)
 
+
+    // Select features that are not so user specific, for purposes
+    // of generalized classification.
     val selectedData : DataFrame = data.select(
       "rejected",
       "amount",
