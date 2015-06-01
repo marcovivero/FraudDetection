@@ -19,14 +19,16 @@ object FraudDetectionPipeline extends FakeRun {
     val data : DataFrame = sql.parquetFile("/data/fraud-detection/all.parquet")
 
     // Number of observations:
+    ws
     println("Number of observations:")
     println(data.count)
-    println(" ")
+    ws
 
     // Get variable names and data type.
+    ws
     println("(Variable Names, Data Type):")
     data.dtypes.foreach(println)
-    println(" ")
+    ws
 
     // Output:
     // (amount,DoubleType)
@@ -59,10 +61,19 @@ object FraudDetectionPipeline extends FakeRun {
       "riskScore"
     )
 
-
+    // First five data observations (should be false):
+    ws
+    println("Data:")
     selectedData.show(5)
+    ws
+
+    ws
+    println("Data (true):")
     selectedData.filter(selectedData("rejected") === true).show(5)
+    ws
   }
+
+  def ws {println(" ")}
 
 
 }
