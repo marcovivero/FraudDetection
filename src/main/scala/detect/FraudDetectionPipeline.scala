@@ -53,7 +53,7 @@ object FraudDetectionPipeline extends FakeRun {
     )
 
     selectedData.show(5)
-    selectedData.filter(selectedData("rejected") === "true").show(5)
+    selectedData.filter(selectedData("rejected") === true).show(5)
   }
 
 
