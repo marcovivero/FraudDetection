@@ -18,9 +18,11 @@ object FraudDetectionPipeline extends FakeRun {
     // Import data from Parquet file.
     val data : DataFrame = sql.parquetFile("/data/fraud-detection/all.parquet")
 
-    // Show data format
+    // Get variable names.
     data.columns.foreach(println)
 
+    // See first data format.
+    data.show(1)
 
   }
 
