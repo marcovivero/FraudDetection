@@ -21,6 +21,7 @@ object FraudDetectionPipeline extends FakeRun {
     // Show data format
     data.columns.foreach(println)
 
+
   }
 
 

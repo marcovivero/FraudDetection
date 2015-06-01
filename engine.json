@@ -1,5 +1,5 @@
 {
   "id": "default",
   "description": "Default settings",
-  "engineFactory": "detect.ChurnPredictionPipeline"
+  "engineFactory": "detect.FraudDetectionPipeline"
 }
