@@ -16,7 +16,7 @@ object FraudDetectionPipeline extends FakeRun {
     import sql.implicits._
 
     // Import data from Parquet file.
-    val data : DataFrame = sql.parquetFile("/data/fraud-detection/all.parquet")
+    val data : DataFrame = sql.parquetFile("/data/fraud-detection/deduped.small.parquet")
 
     // Number of observations:
     ws
